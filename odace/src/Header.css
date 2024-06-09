@@ -1,0 +1,31 @@
+/* Header styles */
+.navbar {
+    font-size: 1.7rem;
+    background-color: #040404;
+}
+.image {
+    width: 55px;
+    height: 55px;
+}
+.header {
+    background-color: #040404;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar ul li a:hover {
+  color: #888;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
