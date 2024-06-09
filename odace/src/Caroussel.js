@@ -4,6 +4,7 @@ import './Caroussel.css';
 
 function CarouselComponent() {
     return (
+        
         <Marquee gradient={false}>
             <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/kitkat.png"})`, backgroundColor: 'black'}}>
             </Card>

@@ -1,8 +1,44 @@
 .App {
   background-color: #040404;
   color: #EDEDED;
+  
 }
 
+.about {
+  background-color: #040404;
+  color: #EDEDED;
+}
+
+.splitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #040404;
+  padding: 20px;
+  border-top: 1px solid #ffffff;
+}
+
+.projects {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  margin-left: 10%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #040404;
+  color: #EDEDED;
+  position: relative;
+}
+
+.projects::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 60%;
+  background-color: currentColor;
+}
 
 .App-header {
   display: flex;

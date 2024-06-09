@@ -4,7 +4,7 @@ import Button from '@mui/joy/Button';
 function Services() {
     return (
         <>
-            <Card sx={{ width: 250, height: 350, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#EDEDED' }}>
+            <Card sx={{ width: 300, height: 350, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#EDEDED' }}>
                 <div>
                     <Typography level="title-lg">I want to be Known</Typography>
                     <Typography level="body-m">This includes :</Typography>
@@ -17,7 +17,7 @@ function Services() {
                     <Button sx={{ backgroundColor: '#810DD4', color: '#fff' }}>Lets talk about this</Button>
                 </div>
             </Card>
-            <Card sx={{ width: 250, height: 350, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#EDEDED' }}>
+            <Card sx={{ width: 300, height: 350, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', backgroundColor: '#EDEDED' }}>
                 <div>
                     <Typography level="title-lg">Can i take a picture ?</Typography>
                     <Typography level="body-m">This includes :</Typography>
@@ -33,7 +33,7 @@ function Services() {
                 </div>
             </Card>
             <Card sx={{ 
-                width: 250, 
+                width: 300, 
                 height: 350, 
                 display: 'flex', 
                 flexDirection: 'column', 
