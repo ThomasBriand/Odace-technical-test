@@ -10,18 +10,20 @@ import Feedback from './FeedBack';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const images = [
-    'logo-big-brain-base-png.jpg',
-    'logo-big-brain-base-png.jpg',
-    'logo-big-brain-base-png.jpg',
-  ];
+  const [lastScrollTop, setLastScrollTop] = useState(0);
 
   useEffect(() => {
     window.onscroll = () => {
-      setIsScrolled(window.pageYOffset === 0 ? false : true);
-      return () => (window.onscroll = null);
+      let st = window.pageYOffset || document.documentElement.scrollTop;
+      if (st > lastScrollTop){
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+      setLastScrollTop(st <= 0 ? 0 : st);
     };
-  }, []);
+    return () => (window.onscroll = null);
+  }, [lastScrollTop]);
 
   return (
     <>

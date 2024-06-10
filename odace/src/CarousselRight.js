@@ -7,15 +7,15 @@ function CarouselComponentR() {
         <Marquee gradient={false} direction="right">
             <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/kitkat.png"})`, backgroundColor: 'black'}}>
             </Card>
-            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/logo-big-brain-base-png.png"})`, backgroundColor: 'black'}}>
+            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/tesla_logo.png"})`, backgroundColor: 'black'}}>
             </Card>
             <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/dunkin.png"})`, backgroundColor: 'black'}}>
             </Card>
-            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/logo-big-brain-base-png.png"})`, backgroundColor: 'black'}}>
+            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/togoodtogo.jpg"})`, backgroundColor: 'black'}}>
             </Card>
             <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/redbull.png"})`, backgroundColor: 'black'}}>
             </Card>
-            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/logo-big-brain-base-png.png"})`, backgroundColor: 'black'}}>
+            <Card variant="outlined" className="carousel-card" style={{backgroundImage: `url(${process.env.PUBLIC_URL + "/nike.jpg"})`, backgroundColor: 'black'}}>
             </Card>
         </Marquee>
     );
